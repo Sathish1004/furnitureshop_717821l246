@@ -1,0 +1,92 @@
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form label styles */
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Form input styles */
+  form input[type="text"],
+  form select {
+    width: calc(100% - 12px);
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Submit button styles */
+  form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Secondary button styles */
+  form button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  form button[type="button"]:hover {
+    color: #0056b3;
+    background-color: #f0f0f0;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    form input[type="text"],
+    form select,
+    form button[type="submit"],
+    form button[type="button"] {
+      width: 100%;
+    }
+  }
+  

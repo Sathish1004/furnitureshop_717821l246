@@ -1,0 +1,65 @@
+.hotelcon{
+    background-color: white;
+    box-shadow: 110%;
+}
+
+.mand{
+    width: 90%;
+}
+
+.starclass{
+    text-align: left;
+}
+
+.location{
+    text-align: left;
+    color: rgb(55, 143, 38);
+    cursor: pointer;
+}
+.Stay_h{
+    text-align: left;
+}
+
+.lux{
+    text-align: left;
+}
+
+.mandrinname{
+    color: #000000;
+    text-align: left;
+}
+
+.mandhotelimgs{
+    width: 25%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* height: 50%; */
+
+}
+
+.superior{
+    text-align: left;
+}
+
+.para232{
+    text-align: left;
+}
+
+.hotelcon1{
+    width: 95%;
+}
+
+.bookingbtn{
+    width: 75%;
+}
+
+.hotelcon1{
+    background-color: rgb(189, 224, 255);
+}
+
+.dub{
+    color: black;
+    display: flex;
+    margin-left: 120px;
+}

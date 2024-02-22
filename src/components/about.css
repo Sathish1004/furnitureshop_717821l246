@@ -1,0 +1,17 @@
+
+
+.container {
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
+  }
+  
+  h2 {
+    color: #28a748; /* Green text color for the heading */
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }

@@ -1,0 +1,78 @@
+nav {
+    height: 90px;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(135,206,235);
+    /* background: url('hpi.jpg')no-repeat center fixed; */
+  }
+  
+  .mylogointop{
+    width: 50px;
+  }
+
+  .title {
+    text-decoration: none;
+    color: #030303;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu span {
+    height: 3px;
+    width: 25px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: flex;
+    }
+  
+    ul {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: fixed;
+      z-index: 1;
+      display: flex;
+    }
+  }

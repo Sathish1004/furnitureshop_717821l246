@@ -1,0 +1,24 @@
+h1{
+    margin: 66660px;
+    padding: 70px 0;      
+    font-size: 70px;
+    margin-top:  0px;
+    margin-bottom:-60px;
+    margin-left: 700px;
+    margin-right: 1px;
+    text-align: center; 
+     display: inline-flex;
+     color: rgb(255, 255, 255);
+   
+    
+    }
+    .demo{
+       
+       background:url("https://images.pexels.com/photos/3701434/pexels-photo-3701434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat ;
+       background-size: cover;
+       height: 100vh  
+    }
+
+    .ss{
+      color: white;
+    }
